@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturezaDiversa</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Crooked Forest</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Wistman's Wood</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Otzarreta Forest</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Dragon's Blood Forest</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Valle de cocora</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Floresta amazônia</a>
+                </li>
+            </ul>
+            <img src="img/logoplanta.png" alt="Logo da naturezadiversa" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Natureza</b>Diversa</h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Florestas</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Crooked Forest</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Otzarreta Forest</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Dragon's Blood Forest</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Valle de cocora</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Floresta amazônia</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Rios</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Montanhas</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Veja algumas imagens sobre a nossa natureza!</h2>
+        <input type="search" class="banner__pesquisa" placeholder="Veja mais sobre!">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">imagens</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/floresta.jpg"
+                            alt="Imagem de uma floresta"></div>
+                    <div class="swiper-slide"><img src="img/rios.jpg"
+                            alt="Imagem de rios"></div>
+                    <div class="swiper-slide"><img src="img/montanha.jpg"
+                            alt="Imagem de uma montanha"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Sem descrição"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Sem descrição"></div>
+                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Sem descrição"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Talvez você goste!</h3>
+                        <h2 class="descrição__titulo-livro">Vida animal</h2>
+                        <p class="descrição__texto">Quando falamos em natureza, a vida animal é muito relevante e importante, veja mais sobre essa beleza selvagem.</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/onçapacks.jpg" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/imagempacks1.png" alt="imagem de sinal"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Outras imagens</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/riospacks2.jpg"
+                            alt="Imagens variadas de rios"></div>
+                    <div class="swiper-slide"><img src="img/montanhapacks2.jpeg"
+                            alt="Imagens variadas de montanhas"></div>
+                    <div class="swiper-slide"><img src="img/florestapacks2.jpg"
+                            alt="Imagens variadas de florestas"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+                    <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">O parque com maior avaliação do Sul!</h3>
+                        <h2 class="descrição__titulo-livro">Parque aurería</h2>
+                        <p class="descrição__texto">Compre já sua entrada, vem passar um momento com sua família!
+
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/parquepack.jpg" class="parque imagens">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/carrinhocompras.png" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">Pesquisas semelhantes a natureza!</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Animias Silvestres</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Animais áquaticos</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">áreas de lazer</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">parque florestal</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Animais Selvagens</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Florestas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Rios</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Cachoeiras</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Não fique por fora das novidades!</h2>
+            <p class="contato__texto">Fique atento as notícias, cadastre-se nesse site.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
